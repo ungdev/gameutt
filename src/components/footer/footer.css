@@ -1,0 +1,57 @@
+#footer{
+    margin:0;
+    height: 70px;
+    background-color: #244464;
+}
+
+#footer ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 60%;
+    margin-right: 60px;
+    margin-left: 60px;
+
+}
+
+#footer ul li { 
+    list-style: none;
+    margin: auto;
+    padding: 0px;
+
+}
+
+#footer ul a{
+    padding: 0;
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    color:white;
+    font-size: 150%;
+    margin: 10px;
+} /* affecte aussi les icones hof */
+
+#footer img{
+    height: 25px;
+    margin: 10px;
+}
+
+#footer h2 {
+    font-family: sans-serif;
+    color: white;
+    height: 30%;
+    margin: 0;
+    font-size: 12px;
+    
+}
+
+#hr {
+    height: 5%;
+    background-color: #171a1f;
+}

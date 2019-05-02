@@ -1,0 +1,37 @@
+#form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+
+#form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+    background-color: white;
+    box-shadow: 1px 1px 10px #555;
+}
+
+#form form input{
+    padding: 10px;
+    margin: 10px;
+}
+
+form input[type=submit] {
+    padding: 10px;
+    margin: 10px;
+    background-color: #171a1f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    background-color: black;
+}
