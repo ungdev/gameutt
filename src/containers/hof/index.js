@@ -4,43 +4,42 @@ import Fame from './fame.js';
 
 
 
-class HOF extends React.Component {
-    constructor() {
-        super();
+const HOF = () => {
 
-    }
-
-    Fame = (name) => {
-        return(<h1>dquzdqz</h1>)
-
-    }
+    return(
+        <div id='hof'>
     
-    render() {
-        
-
-        return(
-            <div id='hof'>
-        
-                <div id="frame">{this.Fame}
-                    <h1>Vainqueurs des précédents événements {this.Fame}</h1>
-                    <div id="wall">
+            <div id="frame">
+                <h1>VAINQUEURS DES PRECEDENTS EVENEMENTS</h1>
+                <h2>Parcourir les frames pour plus d'infos</h2>
+                <div id="pole"></div>
+                <div id="wall">
+                    <div><h4>choose your fighter</h4></div>
+                    <div id="famewall">
                         <Fame 
-                        name={'Jeanmich'}
-                        date={'25/06'}
+                        id={1}
+                        name={'Lionel'}
+                        date={'08/04'}
                         game={'SSBU'}
                         place={'After Gaming'}
                         />
-                        <Fame/>
-                        <Fame/>
-                        <Fame/>
-                        
-                        
-                    </div>
+                        <Fame
+                        id = {2}
+                        name={'---'}
+                        date={'---'}
+                        game={'---'}
+                        place={'--- '}/>
+                        <Fame/><Fame/><Fame/><Fame/><Fame/><Fame/>
+                        <Fame/><Fame/><Fame/><Fame/><Fame/><Fame/>
+                        <Fame/><Fame/><Fame/><Fame/><Fame/><Fame/>
+                    </div>                    
                 </div>
-
+                <div id="pole"></div>
+                <h2>Pour avoir la chance d'avoir ton nom dans le Hall of fame vient participer aux événements Game UTT !</h2>
             </div>
-        )
-    }
+        </div>
+    )
+
 }
 
 export default HOF;

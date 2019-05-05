@@ -3,17 +3,31 @@ import './hof.css';
 
 
 
-const Fame = (props) => (
-    <div id="fame">
-        <i class="fas fa-user-alt"></i>
+const Fame = (props) => {
 
-        <div>{props.name}</div>
+    let icone;
+    let info;
 
-        <div>{props.place} du {props.date}</div>
-        
-        <div>Vainqueur {props.game}</div>
+    if( props.name ){
+        icone = <i class="fas fa-trophy"></i>
+        info = <div id="info">
+            <h3>Vainqueur {props.game}</h3>
+            <h3>{props.place}</h3>
+            <h3>le {props.date}</h3>
 
-    </div>
-)
+        </div>
+    } else {
+        icone = <i class="fas fa-user-alt"></i>
+    }
+
+    return(
+        <div id="fame">
+            <h5>P1</h5>
+            {icone}           
+            <div id="name">{props.name}</div>
+            {info}
+        </div>
+    )
+}
 
 export default Fame;

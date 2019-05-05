@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: darkgray;
+    background-color: #171a1f;
 }
 
 #form form{
@@ -14,13 +14,14 @@
     align-items: center;
     height: 100%;
     width: 75%;
-    background-color: white;
+    background-color: ghostwhite;
     box-shadow: 1px 1px 10px #555;
 }
 
 #form form input{
     padding: 10px;
     margin: 10px;
+    border-radius: 3px;
 }
 
 form input[type=submit] {
@@ -29,6 +30,7 @@ form input[type=submit] {
     background-color: #171a1f;
     color: white;
     border: none;
+    border-radius: 3px;
     cursor: pointer;
 }
 

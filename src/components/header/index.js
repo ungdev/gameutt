@@ -14,7 +14,6 @@ const Header = () => (
             <Link to ="/form"><li>INSCRIPTION</li></Link>
         </ul>
         <div id="hr"/>
-
     </div>
 )
 

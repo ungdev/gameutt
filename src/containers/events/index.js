@@ -11,7 +11,7 @@ const Events = () => {
     }
 
     let net = {
-        date : "25 mai" ,
+        date : "6 mai" ,
         time : "18h - 22h",
         place : "M105",
     }

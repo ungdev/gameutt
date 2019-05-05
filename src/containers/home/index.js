@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import bg from '../../assets/bg.jpg'
 import './home.css';
 
 const Home = () => (
@@ -11,7 +10,6 @@ const Home = () => (
         </div>
         
         <div id='new'>
-            
         </div>
     </div>
 )

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Switch, Route, BrowserRouter, Redirect } from 'react-router-dom';
 
 import Header from './components/header';
@@ -12,8 +12,9 @@ import Admin from './containers/admin';
 
 const App = () => (
   <BrowserRouter>
-
-    <Header />
+    <div id="headerdiv">
+      <Header />
+    </div>
   
     <Switch>
       <Route path='/' exact component={Home}/>
